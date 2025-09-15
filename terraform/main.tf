@@ -12,6 +12,7 @@ provider "aws" {
 
 variable "instance_count" {
   type = number
+  default = 1
 }
 
 resource "aws_instance" "demo" {
